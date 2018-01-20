@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body class="container">
+
+      <div class="nav-left">
+        <a href="#">About</a>
+        <a href="#">Store</a>
+      </div>
+      <div class="nav-right">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <img src="./images/google-apps.png" alt="Google apps">
+        <img src="./images/google-notifications.png" alt="Google notifications">
+        <img src="./images/google-account.png" alt="Google Account">
+      </div>
+
+      <div class="section1">
+        <img src="./images/google-logo.png" class="logo" alt="Google Logo">
+      </div>
+
+      <div class="form">
+        <form class="search" action="#" method="get">
+          <input type="text"><br>
+          <input type="submit" value="Google Search">
+          <input type="submit" value="I'm Feeling Lucky">
+        </form>
+      </div>
+
+      <footer>
+        <div class="fnav-left">
+          <a href="#">Advertisement</a>
+          <a href="#">Business</a>
+        </div>
+        <div class="fnav-right">
+          <a href="#" class="right">Privacy</a>
+          <a href="#" class="right">Terms</a>
+          <a href="#" class="right">Settings</a>
+        </div>
+      </footer>
+
+  </body>
+</html>

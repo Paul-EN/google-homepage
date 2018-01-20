@@ -1,0 +1,82 @@
+
+
+/* -----Grids----- */
+
+.container {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-areas: "nav-left nav-right"
+                       "section1 section1"
+                       "form form"
+                       "footer footer";
+}
+
+.nav-left {
+  background-color: green;
+  grid-area: nav-left;
+}
+
+.nav-right {
+  background-color: blue;
+  text-align: right;
+  padding: auto;
+  grid-area: nav-right;
+}
+
+.section1 {
+  background-color: red;
+  grid-area: section1;
+}
+
+.form {
+  background-color: yellow;
+  grid-area: form;
+}
+
+footer {
+  background-color: pink;
+  display: block;
+  grid-area: footer;
+  grid-template-area: "fnav-left fnav-right";
+}
+
+.fnav-left {
+  display: inline;
+  background-color: orange;
+  grid-area: fnav-left;
+}
+
+.fnav-right {
+  display: inline;
+  background-color: purple;
+  grid-area: fnav-right:
+}
+
+
+/*-------------*/
+
+
+
+/*-------------*/
+
+.nav-right {
+
+}
+
+.logo {
+  width: 272px;
+  height: 92px;
+  display: block;
+  margin: 0 auto;
+}
+
+.form {
+  display: block;
+  padding: 0 auto;
+  text-align: center;
+}
+
+.fnav-right {
+  text-align: right;
+}
