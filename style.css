@@ -1,3 +1,69 @@
+/*-----Main Sections-----*/
 body {
+  width: 100vw;
+  height: 100vh;
+  font-size: small;
+  font-family: Arial,sans-serif;
+}
+
+footer {
   background-color: #f2f2f2;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav-foot {
+  color: #666666;
+}
+
+ul {
+  overflow: hidden;
+  margin: 20px 17px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  margin: 0 10px;
+  vertical-align: center;
+}
+
+a {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.c {
+  text-align: center;
+}
+
+.logo {
+  padding-top: 109px;
+}
+
+input[type=text] {
+  display: block;
+  width: 75%;
+  padding: 12px 20px;
+  margin: 25px auto;
+  box-sizing: border-box;
+  border: 1px solid #dddddd;
+}
+
+input[type=submit] {
+  background-color: #f5f5f5;
+  border: 1px solid #f2f2f2;
+  color: #757575;
+  padding: 16px 20px;
 }
