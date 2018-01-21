@@ -1,4 +1,5 @@
 /*-----Main Sections-----*/
+
 body {
   width: 100vw;
   height: 100vh;
@@ -6,20 +7,24 @@ body {
   font-family: Arial,sans-serif;
 }
 
+/*-----NavBars-----*/
+
+
 footer {
   background-color: #f2f2f2;
   position: absolute;
   bottom: 0;
   width: 100%;
+  height:
 }
 
-.nav-foot {
+.nav-foot a {
   color: #666666;
 }
 
 ul {
   overflow: hidden;
-  margin: 20px 17px;
+  padding: 20px 17px;
 }
 
 li {
@@ -29,8 +34,9 @@ li {
 li a {
   display: block;
   margin: 0 10px;
-  vertical-align: center;
 }
+
+/*-----Links-----*/
 
 a {
   color: black;
@@ -44,26 +50,49 @@ a:hover {
   text-decoration: underline;
 }
 
+/*-----Misc-----*/
+
 .c {
   text-align: center;
+}
+
+.o {
+  opacity: 0.75;
 }
 
 .logo {
   padding-top: 109px;
 }
 
+/*-----Form-----*/
+
 input[type=text] {
   display: block;
   width: 75%;
+  height: 44px;
   padding: 12px 20px;
-  margin: 25px auto;
+  margin: 25px auto 15px auto;
   box-sizing: border-box;
   border: 1px solid #dddddd;
+  box-shadow: 0.5px 1px 3px #dfdfdf;
+}
+
+input[type=text]:hover {
+  box-shadow: 0px 2.5px 6px #c6c6c6;
 }
 
 input[type=submit] {
   background-color: #f5f5f5;
   border: 1px solid #f2f2f2;
   color: #757575;
-  padding: 16px 20px;
+  font-weight: 500;
+  padding: 10px 20px;
+  margin: 3px;
+}
+
+input[type=submit]:hover {
+  background-color: #f7f7f7;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0px 1px 4px #dfdfdf;
+  color: #000000;
 }
