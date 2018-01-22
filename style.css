@@ -11,9 +11,14 @@ body {
 
 footer {
   background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+.nav-head .left {
+  margin-top: 13px;
 }
 
 .nav-foot a {
@@ -27,9 +32,8 @@ ul {
 
 li.right {
   float: right;
-  vertical-align: middle;
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
 
 li.left {
